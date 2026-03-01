@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# DS_Store: Desktop Services Store, is a hidden file created by MacOS to store custom attributes of a folder, such as the positions of icons or the choice of a background image. 
+.DS_Store
