@@ -22,7 +22,7 @@ def get_files_info(working_directory, directory="."):
             item_info_list.append(item_info)
         return "\n".join(item_info_list)
     except Exception as e: 
-        return f"Error: {e}"
+        return f"Error listing files: {e}"
     
 schema_get_files_info = types.FunctionDeclaration(
     name="get_files_info",
